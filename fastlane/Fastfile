@@ -6,10 +6,11 @@ platform :ios do
     scan(
       project: "MyProject.xcodeproj",
       scheme: "MyApp",
+      # xcodebuild_formatter: "xcbeautify",
+      xcodebuild_formatter: "xcpretty",
       clean: true,
       skip_build: false,
-      output_types: "junit",
-      output_directory: "fastlane/test_output"
+      build_for_testing: true
     )
   end
 end

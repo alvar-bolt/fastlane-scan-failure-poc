@@ -5,5 +5,6 @@ final class MyAppTests: XCTestCase {
     
     func testEmpty() {
         // Empty test
+        #error("build error")
     }
 }
