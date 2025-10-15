@@ -1,0 +1,36 @@
+name: MyProject
+options:
+  bundleIdPrefix: com.myapp
+targets:
+  MyApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [MyApp]
+    info:
+      path: MyApp/Info.plist
+      properties:
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UILaunchStoryboardName: LaunchScreen
+  MyAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [MyAppTests]
+    info:
+      path: MyAppTests/Info.plist
+    dependencies:
+      - target: MyApp
+schemes:
+  MyApp:
+    build:
+      targets:
+        MyApp: all
+    run:
+      configuration: Debug
+      executable: MyApp
+    test:
+      targets:
+        - MyAppTests
+    archive:
+      configuration: Release
