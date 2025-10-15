@@ -1,0 +1,15 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run MyAppTests with scan"
+  lane :my_app_tests do
+    scan(
+      project: "MyProject.xcodeproj",
+      scheme: "MyApp",
+      clean: true,
+      skip_build: false,
+      output_types: "junit",
+      output_directory: "fastlane/test_output"
+    )
+  end
+end
