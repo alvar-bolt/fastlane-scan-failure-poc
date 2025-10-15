@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0996BD87A3CBE4812A706650 /* MyAppTestsFileThatContainsWordExecuted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED9EFA936AA660BCA7F244 /* MyAppTestsFileThatContainsWordExecuted.swift */; };
 		1BE1D173E128C4D02D18F6C6 /* MyAppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06C4D95C4F1CC3D72B00567 /* MyAppMain.swift */; };
-		4ED20C5F1E5FEA672FEF5C0F /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B830AE5933E7E1A0EB6743 /* MyAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,8 +22,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69ED9EFA936AA660BCA7F244 /* MyAppTestsFileThatContainsWordExecuted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTestsFileThatContainsWordExecuted.swift; sourceTree = "<group>"; };
 		78D0A6EA43408254B0537E5B /* MyApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99B830AE5933E7E1A0EB6743 /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
 		A4F98EC157C416BF84E42E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B06C4D95C4F1CC3D72B00567 /* MyAppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppMain.swift; sourceTree = "<group>"; };
 		B748A88C854022D38A65BD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXGroup;
 			children = (
 				A4F98EC157C416BF84E42E21 /* Info.plist */,
-				99B830AE5933E7E1A0EB6743 /* MyAppTests.swift */,
+				69ED9EFA936AA660BCA7F244 /* MyAppTestsFileThatContainsWordExecuted.swift */,
 			);
 			path = MyAppTests;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED20C5F1E5FEA672FEF5C0F /* MyAppTests.swift in Sources */,
+				0996BD87A3CBE4812A706650 /* MyAppTestsFileThatContainsWordExecuted.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
